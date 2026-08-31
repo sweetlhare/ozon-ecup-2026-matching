@@ -1,0 +1,32 @@
+{
+  "release": "reproducibility-v1",
+  "assets": [
+    {
+      "name": "final_models.zip",
+      "kind": "models",
+      "url": "https://github.com/sweetlhare/ozon-ecup-2026-matching/releases/download/reproducibility-v1/final_models.zip",
+      "destination": "release/final_models.zip",
+      "sha256": "8eade0530b1d31906cddb7d8757c02fb96f4ebd90942f47609512d9239fb869f",
+      "size": 1906851688,
+      "extract": true
+    },
+    {
+      "name": "submission_mix408_textneg.zip",
+      "kind": "submissions",
+      "url": "https://github.com/sweetlhare/ozon-ecup-2026-matching/releases/download/reproducibility-v1/submission_mix408_textneg.zip",
+      "destination": "submissions/submission_mix408_textneg.zip",
+      "sha256": "40eaad4f58a6c7266944d57e1c7b2d606f70abd2f0e62a2cb1ff66521c832e1c",
+      "size": 855100724,
+      "extract": false
+    },
+    {
+      "name": "rebuilt_submission_final_safe_fwdgate.zip",
+      "kind": "submissions",
+      "url": "https://github.com/sweetlhare/ozon-ecup-2026-matching/releases/download/reproducibility-v1/rebuilt_submission_final_safe_fwdgate.zip",
+      "destination": "submissions/rebuilt_submission_final_safe_fwdgate.zip",
+      "sha256": "e33777770bd1aa9f4619939e866f429814ed0d9c0cf89eb7b1d1f386184cc6a0",
+      "size": 850371735,
+      "extract": false
+    }
+  ]
+}

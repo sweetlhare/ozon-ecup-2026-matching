@@ -1,0 +1,53 @@
+{
+  "id": "final_safe_fwdgate",
+  "role": "private_runtime_hedge",
+  "public_macro_ap": 0.5426350252,
+  "submitted_archive": "submission_final_safe_fwdgate.zip",
+  "submitted_archive_sha256": "108249a36ad5de60b27f99027b18c1c79828f4b1981560f8dd08b9c46d769d5d",
+  "submitted_archive_available": false,
+  "rebuild_output": "submissions/rebuilt_submission_final_safe_fwdgate.zip",
+  "runtime_files": [
+    "run.py",
+    "metadata.json",
+    "pair_text.py",
+    "attr_canon.py",
+    "brands.json",
+    "pri_by_cat.json"
+  ],
+  "models": [
+    {
+      "archive_dir": "model1_nosym",
+      "source_dir": "models/final_safe_fwdgate/gate",
+      "files": ["model.safetensors", "config.json", "tokenizer.json", "tokenizer_config.json"]
+    },
+    {
+      "archive_dir": "model2_nosym",
+      "source_dir": "models/final_safe_fwdgate/scorer",
+      "files": ["model.safetensors", "config.json", "tokenizer.json", "tokenizer_config.json"]
+    }
+  ],
+  "assets": [],
+  "validator_args": ["--expect-models", "2", "--expect-ordered", "model1_nosym", "model2_nosym", "--require-fp16"],
+  "content_sha256": {
+    "attr_canon.py": "519f82e32b51df2e6b32e11fa5672b306ba6f75e67332e816e67006d6f50f73f",
+    "brands.json": "f4ca61db562cb4dfa10fe657b45a554c49a90289b5fd72fb726e811f2adc6022",
+    "metadata.json": "e94d731a0fc64e6d539d9c5ecf8f457e130b5e6fe373dd65f749049a7c5eae55",
+    "model1_nosym/ORDERED": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "model1_nosym/config.json": "055733f79c355469d0073d73467081756e7b456a56fb6c4b32ecafa22d8dd49e",
+    "model1_nosym/model.safetensors": "34d69b25a1fa599bc9d6c9fc6240a5270128aaefe0f1c566eecdbb54f81a672c",
+    "model1_nosym/tokenizer.json": "c166ae391d765915521dce27bf940cc9c7bff5050260f652f9327a7df1b9cd56",
+    "model1_nosym/tokenizer_config.json": "13587555b03c271d569664de0aa6c9900ddfe123f47f2694187d9fdc5d5e060b",
+    "model2_nosym/ORDERED": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "model2_nosym/PARTIAL_SYM": "1b91a96cee07bc9fc45509911d7c3f2404576fee1f35375b6e739e6f43c157a1",
+    "model2_nosym/RANKIT_DISAGREEMENT": "c4ca1b0286aa733a0be85b5df6b3bbbb64e07ddd137f4d6b877de8955f8e830c",
+    "model2_nosym/RRF_K": "eea8254c7500ba3de996aa8ad6af399183f04e17d4a8102fde539dbc93a90012",
+    "model2_nosym/config.json": "518982946d487b2f4d1353027922967653df6412dac112e4e6034d1ddb293e96",
+    "model2_nosym/model.safetensors": "6155f6fd080a4224655bf72966da4743196f16a789e8737f00147ca53ffaada9",
+    "model2_nosym/tokenizer.json": "609d8f4c067cd3950f88594c5a802616cea245823836ef5848ee4fc40aab5b6f",
+    "model2_nosym/tokenizer_config.json": "02055b886266b1a475bc324da83e273fe96e4974002f9d970f26e94aa73e5885",
+    "pair_text.py": "fb681277c7ffa1f8b4ba4c9f01c4e251d2030485ce1495d1635c645ebd91ff5d",
+    "pri_by_cat.json": "fe26e6bc3ec433101261637638e06f2e631cfc6312ad91906c1c41e7a8b67e61",
+    "run.py": "6d1c70e194004894aeeef3ea2046c592ef31adcc519a781f83a071170fc65da7"
+  }
+}
+

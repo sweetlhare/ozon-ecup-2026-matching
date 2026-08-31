@@ -1,0 +1,17 @@
+{
+  "rumodernbert": {
+    "repo_id": "deepvk/RuModernBERT-base",
+    "revision": "797f7ff2a4c6e873525e7c3f0a2afb5746bd226f",
+    "local_dir": "models/base/rumodernbert"
+  },
+  "mmbert": {
+    "repo_id": "jhu-clsp/mmBERT-base",
+    "revision": "c5955035435e2bf121cde7f3c8863ef52ff35d82",
+    "local_dir": "models/base/mmbert"
+  },
+  "granite": {
+    "repo_id": "ibm-granite/granite-embedding-311m-multilingual-r2",
+    "revision": "44399559930365213510b1ee2eb15ded83374f0e",
+    "local_dir": "models/base/granite311"
+  }
+}

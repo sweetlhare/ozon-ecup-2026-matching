@@ -1,0 +1,21 @@
+{
+  "base_url": "https://storage.yandexcloud.net/ozon-ecup-2026/Matching",
+  "files": {
+    "matches.parquet": {
+      "size": 4120668,
+      "sha256": "14b0e07f750204807aff0bb7510d385a0b3fae3f02088506a14242187ca1e492"
+    },
+    "matches_llm.parquet": {
+      "size": 104690716,
+      "sha256": "dc7802dbfb36afd134cff8d449b93f602a0bb7da26f755685dd1dbbe40f8b24d"
+    },
+    "items_human.parquet": {
+      "size": 214210451,
+      "sha256": "07d4f09ac8cfa90a2dfc2a7802dec09fc1e188576e1281e781aa1340b3336f4a"
+    },
+    "items.parquet": {
+      "size": 4104103411,
+      "sha256": "4dbc6ca200f842db0579f0eaaec0662df07721df96d975552c0f18134c51f0a8"
+    }
+  }
+}

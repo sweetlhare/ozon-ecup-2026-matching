@@ -1,0 +1,21 @@
+# Финальные веса и архивы хранятся локально; их SHA-256 зафиксированы в
+# solutions/*/manifest.json.
+*.zip
+release/*.zip
+models/*
+!models/README.md
+!release/artifacts.json
+.venv/
+data/
+artifacts/
+.submission_stage/
+*.safetensors
+
+# Единственный NumPy-asset входит в frozen runtime основного решения.
+*.npy
+!solutions/mix408_textneg/assets/textsig_negative_u64.npy
+
+# Служебное.
+__pycache__/
+*.pyc
+.DS_Store
